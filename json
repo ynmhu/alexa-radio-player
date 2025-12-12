@@ -1,0 +1,190 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my player",
+            "intents": [
+                {
+                    "name": "PlayRadioIntent",
+                    "slots": [
+                        {
+                            "name": "station",
+                            "type": "RADIO_STATION"
+                        }
+                    ],
+                    "samples": [
+                        "play {station}",
+                        "{station}",
+                        "start {station}",
+                        "listen to {station}",
+                        "put on {station}"
+                    ]
+                },
+                {
+                    "name": "ListRadioIntent",
+                    "slots": [],
+                    "samples": [
+                        "list all radios",
+                        "list radios",
+                        "what radios",
+                        "show radios"
+                    ]
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "RADIO_STATION",
+                    "values": [
+                        {
+                            "id": "1",
+                            "name": {
+                                "value": "one",
+                                "synonyms": [
+                                    "1",
+                                    "number one",
+                                    "number 1"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "name": {
+                                "value": "two",
+                                "synonyms": [
+                                    "2",
+                                    "number two",
+                                    "number 2"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "3",
+                            "name": {
+                                "value": "three",
+                                "synonyms": [
+                                    "3",
+                                    "number three",
+                                    "number 3"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "gaga",
+                            "name": {
+                                "value": "gaga",
+                                "synonyms": [
+                                    "ga ga",
+                                    "radio gaga"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "info",
+                            "name": {
+                                "value": "info",
+                                "synonyms": [
+                                    "infostart"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "radio1",
+                            "name": {
+                                "value": "radioone",
+                                "synonyms": [
+                                    "radio one",
+                                    "radio 1"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "petofi",
+                            "name": {
+                                "value": "petofi"
+                            }
+                        },
+                        {
+                            "id": "radio88",
+                            "name": {
+                                "value": "radioeightyeight",
+                                "synonyms": [
+                                    "radio eighty eight",
+                                    "radio 88"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "klub",
+                            "name": {
+                                "value": "klub",
+                                "synonyms": [
+                                    "club"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "radio7",
+                            "name": {
+                                "value": "radioseven",
+                                "synonyms": [
+                                    "radio seven",
+                                    "radio 7"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "mulatos",
+                            "name": {
+                                "value": "mulatos"
+                            }
+                        },
+                        {
+                            "id": "koko",
+                            "name": {
+                                "value": "koko",
+                                "synonyms": [
+                                    "coco"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "paprika",
+                            "name": {
+                                "value": "paprika"
+                            }
+                        },
+                        {
+                            "id": "retro",
+                            "name": {
+                                "value": "retro"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
